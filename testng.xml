@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Rest Api Test">
+    <listeners>
+        <listener class-name="com.employee.utils.Listener"/>
+    </listeners>
+    <test name="Check API test">
+        <classes>
+            <class name="com.employee.testcases.TC001"/>
+            <class name="com.employee.testcases.TC003_Create_User"/>
+        </classes>
+    </test>
+</suite>
